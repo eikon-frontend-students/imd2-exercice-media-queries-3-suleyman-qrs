@@ -406,10 +406,145 @@ video {
   .nav-toggle {
     display: none;
   }
+
+  .hero {
+    padding: 40px 20px;
+  }
+  .hero-content h1 {
+    font-size: 35px;
+  }
+  .hero-content p {
+    font-size: 18px;
+    margin: 0 auto 32px;
+  }
+  .cta-button {
+    width: auto;
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-image {
+    max-width: 80%;
+  }
+
+  .features h2 {
+    font-size: 40px;
+    font-weight: 250;
+    line-height: 64px;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+  .feature-card h3 {
+    font-size: 22px;
+  }
+  .feature-card p {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-self: stretch;
+    color: #d1d5db;
+    font-size: 16px;
+  }
+  .services-layout {
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    padding-bottom: 48px;
+  }
+
+  .service-main h3 {
+    font-size: 24px;
+  }
+  .service-main p {
+    font-size: 16px;
+  }
+  .service-sidebar {
+    display: flex;
+    width: 383.6px;
+    padding-bottom: 229.88px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+  }
+
+  .service-item {
+    flex-direction: row;
+    align-self: stretch;
+    text-align: left;
+    padding: 16px 24px;
+    gap: 24px;
+  }
+  .service-item img {
+    width: 60px;
+    height: 45px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+    margin: 0;
+  }
+  .service-item h4 {
+    font-size: 14px;
+  }
+  .service-item p {
+    font-size: 13px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .gallery {
+    padding: 48px 0;
+  }
+  .gallery h2 {
+    font-size: 29px;
+  }
+
+  .site-footer {
+    padding: 41px 0 16px;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    align-items: start;
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+
+  .footer-section h3 {
+    font-size: 18.7px;
+  }
+
+  .footer-section p {
+    font-size: 16px;
+  }
+  .social-links {
+    justify-content: flex-start;
+  }
+
+  .footer-brand {
+    display: flex;
+    width: 210%;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+  }
+
+  .footer-bottom {
+    padding-top: 33px;
+    font-size: 16px;
+  }
+
+  /* DESKTOP - Large screens (1024px and up) */
+  @media screen and (min-width: 1024px) {
+  }
 }
-
-/* DESKTOP - Large screens (1024px and up) */
-@media screen and (min-width: 1024px) {
-
-}
-
