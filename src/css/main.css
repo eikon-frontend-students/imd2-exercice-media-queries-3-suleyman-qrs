@@ -425,8 +425,8 @@ video {
     align-items: center;
   }
   .hero-image {
-    width: 786.39px;
-    height: 393.2px;
+    width: 80%;
+    height: auto;
   }
 
   .features h2 {
@@ -549,7 +549,7 @@ video {
     padding: 64px 20px;
   }
   .hero-content h1 {
-    font-size: 42px;
+    font-size: 48px;
   }
   .hero-content p {
     font-size: 20px;
