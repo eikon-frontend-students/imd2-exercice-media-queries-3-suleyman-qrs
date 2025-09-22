@@ -408,7 +408,7 @@ video {
   }
 
   .hero {
-    padding: 40px 20px;
+    padding: 48px 20px;
   }
   .hero-content h1 {
     font-size: 35px;
@@ -425,7 +425,8 @@ video {
     align-items: center;
   }
   .hero-image {
-    max-width: 80%;
+    width: 786.39px;
+    height: 393.2px;
   }
 
   .features h2 {
@@ -464,7 +465,7 @@ video {
   }
   .service-sidebar {
     display: flex;
-    width: 383.6px;
+    max-width: 383.6px;
     padding-bottom: 229.88px;
     flex-direction: column;
     align-items: flex-start;
@@ -513,6 +514,7 @@ video {
 
   .footer-content {
     grid-template-columns: repeat(2, 1fr);
+    grid-row-start: 100px;
     text-align: left;
     align-items: start;
     gap: 32px;
@@ -531,20 +533,111 @@ video {
   }
 
   .footer-brand {
-    display: flex;
-    width: 210%;
-    padding: 10px 0;
-    justify-content: center;
-    align-items: center;
-    font-size: 21px;
+    grid-row-start: 3;
+    font-size: 24px;
+    text-align: center;
   }
 
   .footer-bottom {
     padding-top: 33px;
     font-size: 16px;
   }
+}
+/* DESKTOP - Large screens (1024px and up) */
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding: 64px 20px;
+  }
+  .hero-content h1 {
+    font-size: 42px;
+  }
+  .hero-content p {
+    font-size: 20px;
+    margin: 0 auto 32px;
+    max-width: 800px;
+  }
+  .cta-button {
+    padding: 18px 36px;
+    font-size: 18px;
+  }
 
-  /* DESKTOP - Large screens (1024px and up) */
-  @media screen and (min-width: 1024px) {
+  .features h2 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 48px;
+  }
+
+  .features-grid {
+    gap: 32px;
+  }
+  .feature-card h3 {
+    font-size: 24px;
+  }
+  .feature-card p {
+    font-size: 18px;
+  }
+
+  .services-layout {
+    gap: 32px;
+    padding-bottom: 64px;
+  }
+
+  .service-main h3 {
+    font-size: 28px;
+  }
+  .service-main p {
+    font-size: 18px;
+  }
+  .service-sidebar {
+    max-width: none;
+    padding-bottom: 0;
+    gap: 20px;
+  }
+
+  .service-item {
+    padding: 20px 28px;
+    gap: 32px;
+  }
+  .service-item img {
+    width: 70px;
+    height: 52.5px;
+  }
+  .service-item h4 {
+    font-size: 16px;
+  }
+  .service-item p {
+    font-size: 14px;
+  }
+
+  .gallery {
+    padding: 64px 0;
+  }
+  .gallery h2 {
+    font-size: 35px;
+    margin-bottom: 48px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .site-footer {
+    padding: 48px 0 24px;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(4, 1fr);
+    text-align: left;
+    gap: 40px;
+    margin-bottom: 48px;
+  }
+
+  .footer-section h3 {
+    font-size: 20px;
+  }
+
+  .footer-section p {
+    font-size: 18px;
   }
 }
